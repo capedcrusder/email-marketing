@@ -235,7 +235,7 @@ export default function Body() {
           <iframe
             width="1066.65"
             height="520"
-            src="https://www.youtube.com/embed/tExc5EOZ1DY"
+            src="https://www.youtube.com/embed/HSNMIGkinFE"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
