@@ -1,7 +1,7 @@
 import React from "react";
-// import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
-import './Style.css'; 
+import "./Style.css"
+
 
 export default function Navbar() {
   const handleClick = (e) => {
@@ -10,14 +10,16 @@ export default function Navbar() {
     window.location.href = "/Login";
   };
 
+
   return (
     <div>
-      <nav
-        className="navbar navbar-expand-lg bg-white">
+      <nav className="navbar navbar-expand-lg bg-white">
         <div className="container-fluid">
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <div>
 
+
+              
               {/* Nav bar elements*/}
               <a className="nav-link active" aria-current="page" href="/">
                 Solution & Services
@@ -52,6 +54,7 @@ export default function Navbar() {
                 Pricing
               </a>
             </div>
+
 
             <div>
               <svg
@@ -126,19 +129,16 @@ export default function Navbar() {
             </div>
 
             <div className="d-flex" role="search">
-             
+             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"  />
 
-              <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-
-              <button onClick={handleClick}
-                className="btn btn-outline-success" type="submit">Login
-              </button>
+              <button onClick={handleClick} className="btn btn-outline-success">Login</button>
 
               <Link className="message" to="/Signup">
-                <button className="btn btn-outline-success" type="submit">Signup
-                </button>
+                <button className="btn btn-outline-success" type="submit">Signup</button>
               </Link>
 
+             
+             
             </div>
           </div>
         </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Body from "./Body";
 import Login from "./Login";
@@ -9,8 +8,8 @@ function AllRoutes() {
     <div>
       <Routes>
         <Route path="/" element={<Body />} />
-        <Route path="/login" element={<Login />}/>
-        <Route path="/signup" element={<Signup />}/>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/signup" element={<Signup />}></Route>
       </Routes>
     </div>
   );
