@@ -1489,7 +1489,7 @@ export default function Body() {
         >
           1.Mailchimp is the #1 email marketing and automation brand based on
           competitor brands' publicly available data on worldwide numbers of
-          customers in 2021 / 2022.
+          customers in 2024.
         </p>
         <p
           style={{

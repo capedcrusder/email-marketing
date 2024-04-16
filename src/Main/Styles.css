@@ -1,4 +1,4 @@
-/* CSS for Login component */
+/* CSS styling for Login component */
 
 .container {
     text-align: left;
@@ -56,6 +56,80 @@
     line-height: 46px;
     margin-top: 50px;
     background-color: #007C89;
+    color: white;
+    margin-bottom: 50px;
+  }
+  
+ /* CSS styling for Signup Component */
+  .container {
+    text-align: left;
+    margin-left: 100px;
+    padding: 15px;
+    width: 1045px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+  .logo {
+    height: 37px;
+    width: 37px;
+  }
+  
+  .title {
+    height: 48px;
+    width: 450px;
+    font-size: 44px;
+    line-height: 48px;
+    font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  }
+  
+  .link {
+    height: 23px;
+    width: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  }
+  
+  .input-label {
+    font-size: 16px;
+    font-weight: 500;
+    height: 29px;
+  }
+  
+  .input-field {
+    font-size: 17px;
+    font-weight: 500;
+    height: 47px;
+    width: 570px;
+    line-height: 20px;
+  }
+  
+  .checkbox-container {
+    font-size: 16px;
+    line-height: 24px;
+    height: 53px;
+    text-align: center;
+    width: 570px;
+    display: flex;
+  }
+  
+  .agreement {
+    font-size: 12px;
+    line-height: 18px;
+    height: 35px;
+    text-align: left;
+    width: 420px;
+    padding-top: 80px;
+  }
+  
+  .submit-btn {
+    font-size: 16px;
+    font-weight: 600;
+    height: 47px;
+    width: 570px;
+    line-height: 46px;
+    margin-top: 50px;
+    background-color: #007c89;
     color: white;
     margin-bottom: 50px;
   }
