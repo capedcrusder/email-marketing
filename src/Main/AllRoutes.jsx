@@ -7,7 +7,7 @@ function AllRoutes() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Body />} />
+        <Route path="/" exact element={<Body />} />
         <Route path="/login" element={<Login />}></Route>
         <Route path="/signup" element={<Signup />}></Route>
       </Routes>

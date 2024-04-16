@@ -1,6 +1,12 @@
 import React from "react";
+import {useLocation, useNavigate} from 'react-router-dom';
 
 export default function Body() {
+
+  const location=useLocation()
+   
+
+
   return (
     <div>
       <div style={{ height: "420px", paddingTop: "150px" }}>

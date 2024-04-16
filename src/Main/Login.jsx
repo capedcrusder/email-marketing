@@ -1,7 +1,41 @@
-import React from "react";
+// import React from "react";
+import React ,{ useState } from "react";
+import {useNavigate, Link} from "react-router-dom";
+import axios from "axios";
 import "./Styles.css";
 
 export default function Login() {
+   /* const history=useNavigate();
+
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+       
+  const submit = async (e) => {
+    e.preventDefault();
+    try {
+       await axios.post("http://localhost:3000/login", { email, password 
+    })
+      .then(res=>{
+        if(res.data="exist"){
+          history("/navbar")
+        }
+        else if(res.data="notexist"){
+          alert("User has not signed up")
+        }
+      })
+      .catch(e=>{
+        alert("Wrong details")
+        console.log(e);
+      })
+      
+  
+    } catch (e) {
+      console.log(e);
+      // Handle signup failure (e.g., display error message)
+    }
+  };      */
+
+
   return (
     <div className="container">
       <div>
@@ -19,11 +53,13 @@ export default function Login() {
         <div>
           <label className="input-label">Email</label>
           <br />
-          <input className="input-field" type="text" />
+          {/* <input className="input-field" type="text" value={email} onChange={(e) => setEmail(e.target.value)}/> */}
+          <input className="input-field" type="text"/>
           <br />
           <br />
           <label className="input-label">Password</label>
           <br />
+          {/* <input className="input-field" type="password" value={password} onChange={(e) => setPassword(e.target.value)} /> */}
           <input className="input-field" type="password" />
           <br />
 
@@ -32,6 +68,7 @@ export default function Login() {
             By logging in, you agree to our Terms and have read and acknowledge
             the Global Privacy Statement.
           </p>
+          {/* <button className="submit-btn" onClick={submit}>Log In</button> */}
           <button className="submit-btn">Log In</button>
         </div>
       </div>
