@@ -1,11 +1,11 @@
-// import React from "react";
+
 import React ,{ useState } from "react";
 import {useNavigate, Link} from "react-router-dom";
 import axios from "axios";
 import "./Styles.css";
 
 export default function Login() {
-    const history=useNavigate();
+    const navigate=useNavigate();
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -13,27 +13,15 @@ export default function Login() {
   const submit = async (e) => {
     e.preventDefault();
     try {
-       await axios.post("http://localhost:3000/login", { email, password 
-    })
-      .then(res=>{
-        if(res.data="exist"){
-          history("/navbar")
-        }
-        else if(res.data="notexist"){
-          alert("User has not signed up")
-        }
-      })
-      .catch(e=>{
-        alert("Wrong details")
-        console.log(e);
-      })
-      
-  
-    } catch (e) {
-      console.log(e);
-      // Handle signup failure (e.g., display error message)
-    }
-  };      
+       const response=await axios.post("http://localhost:8050/login", { email, password })
+       const token = response.data.token;
+       localStorage.setItem("token", token);
+       navigate("/navbar");
+    }catch(error){
+      console.error("Error logging in:", error);
+      alert("Invalid email or password");
+      }
+    };      
 
 
   return (

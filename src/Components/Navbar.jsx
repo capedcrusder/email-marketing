@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import "./Style.css"
 
 
@@ -88,6 +89,7 @@ export default function Navbar() {
 
 
             <div>
+            <a href="/" className="navbar-brand">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="brandLogo brandLogo--lockup--animated"
@@ -156,7 +158,9 @@ export default function Navbar() {
                   <path d="M2.18,.17H0V8.9H2.18V.17Z"></path>
                   <path d="M12.46,3.83C12.46,1.62,10.69,0,8.43,0S4.41,1.61,4.41,3.83v5.08h2.18V4.09c0-1.19,.8-1.99,1.85-1.99s1.85,.8,1.85,1.99v4.82h2.18V3.83Z"></path>
                 </g>
+              
               </svg>
+              </a>
             </div>
 
             <div className="d-flex" role="search">

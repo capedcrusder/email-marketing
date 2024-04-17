@@ -4,7 +4,7 @@ import {useNavigate, Link} from "react-router-dom";
 import axios from "axios";
 
 export default function Signup() {
-  const history=useNavigate();
+  const navigate=useNavigate();
 
 
   const [email, setEmail] = useState("");
@@ -13,25 +13,13 @@ export default function Signup() {
   const submit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:3000/signup", { email, password 
-    })
-
-    .then(res=>{
-      if(res.data="exist"){
-        alert("User already exist")
-      }
-      else if(res.data="notexist"){
-        history("/navbar")
-      }
-    })
-    .catch(e=>{
-      alert("Wrong details")
-      console.log(e);
-    })
-      
-  
-    } catch (e) {
-      console.log(e);
+      const response = await axios.post("http://localhost:8050/signup", { email, password }); 
+        const token=response.data.token;
+        localStorage.setItem("token",token);
+        navigate.push("/navbar");    
+      } catch (e) {
+      console.error("Error signing up:", e);
+      alert("Failed to sign up");
     }
   };     
 
