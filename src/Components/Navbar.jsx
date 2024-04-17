@@ -24,33 +24,64 @@ export default function Navbar() {
               <a className="nav-link active" aria-current="page" href="/">
                 Solution & Services
                 <ul className="sub-menu">
-                   <li><a href="/">Websites</a></li>
-                   <li><a href="/">Templates</a></li>
-                   <li><a href="/">Email Marketing</a></li>
-                   <li><a href="/">AI Marketing Tools</a></li>
-                   <li><a href="/">Audience Management</a></li>
-                   <li><a href="/">Marketing Automation</a></li>
-                   <li><a href="/">Reporting & analytics</a></li>
-                   <li><a href="/">Social media marketing</a></li>
+                   <li><a href="https://mailchimp.com/solutions/website-builder/">Websites</a></li>
+                   <li><a href="https://mailchimp.com/solutions/digital-marketing-templates/">Templates</a></li>
+                   <li><a href="https://mailchimp.com/solutions/email-marketing-platform/">Email Marketing</a></li>
+                   <li><a href="https://mailchimp.com/solutions/ai-tools/">AI Marketing Tools</a></li>
+                   <li><a href="https://mailchimp.com/solutions/ai-tools/">Audience Management</a></li>
+                   <li><a href="https://mailchimp.com/solutions/marketing-automation-tools/">Marketing Automation</a></li>
+                   <li><a href="https://mailchimp.com/solutions/analytics-reporting-tools/">Reporting & analytics</a></li>
+                   <li><a href="https://mailchimp.com/solutions/social-media-marketing-tools/">Social media marketing</a></li>
                   {/* can add more sub-elements as needed */}
         </ul>
               </a>
+             {/* <div className="nav-link-wrapper">*/}
               <a className="nav-link active" aria-current="page" href="/">
-                Resources
-                <ul className="sub-menu">
-                   <li><a href="/">Learn with Mailchimp</a></li>
-                   <li><a href="/">Mailchimp Presents</a></li>
-                   <li><a href="/">For Developers</a></li>
-                   <li><a href="/">See all resources</a></li>
-                   <li><a href="/">Help Center</a></li>
-                   <li><a href="/">Case Studies</a></li>
-                   <li><a href="/">Events</a></li>
-                  </ul>
-              </a>
-              <Link className="nav-link" to="/Login">
+               Resources
+              <ul className="sub-menu">
+              <li>
+              <a href="/">Learn with Mailchimp</a>
+              {/*<ul className="sub-sub-menu">
+              <li><a href="/">AI marketing tool</a></li>
+              <li><a href="/">E-commerce</a></li>
+              <li><a href="/">Digital Content</a></li>
+              <li><a href="/">Marketing automations</a></li>
+              <li><a href="/">Audience management</a></li>
+              <li><a href="/">Websites</a></li>
+              <li><a href="/">Email marketing</a></li>
+              <li><a href="/">Social Media</a></li>
+              </ul> */}
+              </li>
+              <li>
+              <a href="/">Mailchimp Presents</a>
+             {/* <ul className="sub-sub-menu">
+              <li><a href="/">Podcasts</a></li>
+              <li><a href="/">Series</a></li>
+              <li><a href="/">Films</a></li>
+              </ul>  */}
+              </li>
+              <li>
+             <a href="/">For Developers</a>
+            {/* <ul className="sub-sub-menu">
+             <li><a href="/">Market API</a></li>
+             <li><a href="/">Transactional API</a></li>
+             <li><a href="/">Release Notes</a></li>
+             <li><a href="/">Transactional Email</a></li>
+             </ul>  */}
+             </li>
+             <li><a href="/">See all resources</a></li>
+             <li><a href="https://mailchimp.com/help/">Help Center</a></li>
+             <li><a href="https://mailchimp.com/case-studies/">Case Studies</a></li>
+             <li><a href="https://mailchimp.com/events/">Events</a></li>
+             </ul>
+            </a>
+           {/* </div> */}
+
+
+              <a className="nav-link" href="https://mailchimp.com/switch-to-mailchimp/">
                 Switch to Mailchimp
-                </Link>
-              <a className="nav-link" href="/">
+                </a>
+              <a className="nav-link" href="https://mailchimp.com/pricing/marketing/">
                 Pricing
               </a>
             </div>

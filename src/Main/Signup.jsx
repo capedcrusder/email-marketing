@@ -51,7 +51,7 @@ export default function Signup() {
         </div>
         <div>
           <p className="link">
-            Create a free account or <a href="">log in</a>
+            Create a free account or <a href="/Login">log in</a>
           </p>
         </div>
         <div>

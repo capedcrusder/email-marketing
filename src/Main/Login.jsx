@@ -61,9 +61,6 @@ export default function Login() {
           <br />
            <input className="input-field" type="password" value={password} onChange={(e) => setPassword(e.target.value)} /> 
           {/*<input className="input-field" type="password" />*/}
-          <br />
-
-          <br />
           <p className="agreement">
             By logging in, you agree to our Terms and have read and acknowledge
             the Global Privacy Statement.

@@ -1,7 +1,7 @@
 
 const express = require('express');
-const collection = require("./db");
-const collection = require("./index.js")
+// const collection = require("./db");
+// const collection = require("./index.js")
 const cors=require("cors")
 
 const app = express();
@@ -51,7 +51,7 @@ app.post("/signup",async(req,res)=>{
 
     }
 })
-app.listen(3000,()=>{
+app.listen(8050,()=>{
     console.log("port connected");
 })
 

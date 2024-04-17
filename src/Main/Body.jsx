@@ -32,7 +32,7 @@ export default function Body() {
           that
         </p>
 
-        <p
+       <p
           style={{
             fontFamily: "Graphik Web,Helvetica Neue",
             fontSize: "24px",
@@ -41,8 +41,9 @@ export default function Body() {
           }}
         >
           recommends ways to get more opens, clicks, and sales.
-        </p>
+        </p>  
         <br />
+        <a href="/signup" style={{ textDecoration: 'none' }}>
         <button
           style={{
             borderRadius: "22px",
@@ -57,10 +58,13 @@ export default function Body() {
             textAlign: "center",
             height: "43.99px",
             width: "96.61px",
+            
           }}
+          
         >
           Sign Up
         </button>
+        </a>
       </div>
       <div style={{ display: "flex" }}>
         <div
@@ -75,12 +79,13 @@ export default function Body() {
             style={{ height: "480px", width: "100%" }}
             src="https://eep.io/images/yzco4xsimv0y/33f3mgIWbzKjIpIRJi2f5v/6bd36bba38b7f6a94d587605ab9a7d75/Desktop_Feature_Cards_1_Automations.jpeg?w=630&fm=webp&q=80"
           />
-          <div style={{ padding: "40px 40px 40px 40px" }}>
-            <p>
-              Send the right message at the right time to convert more
-              customers.
+          <div style={{ padding: "20px 40px 40px 40px" }}>
+            <p style={{ marginBottom: "10px" }}>
+            Boost orders and customer lifetime value by dynamically 
+            personalizing emails based on browsing and purchase data.
             </p>
-            <div style={{ display: "flex", justifyContent: "flex-start" }}>
+            
+            <a href="https://mailchimp.com/solutions/marketing-automation-tools/">
               <button
                 style={{
                   borderRadius: "22px",
@@ -91,16 +96,22 @@ export default function Body() {
                   lineHeight: "36px",
                   margin: "0px",
                   fontWeight: "500",
-                  lineHeight: "20px",
+                  lineHeight: "36px",
                   textAlign: "center",
                   height: "43.99px",
-                  width: "100.61px",
+                  width: "250px",
+                  padding: "0 20px",
                   justifyContent: "left",
+                  boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)", 
+                  transition: "box-shadow 0.3s ease",
                 }}
+                onMouseOver={(e) => { e.target.style.boxShadow = "0px 6px 10px rgba(0, 0, 0, 0.5)" }} 
+                onMouseOut={(e) => { e.target.style.boxShadow = "0px 4px 6px rgba(0, 0, 0, 0.1)" }} 
               >
-                Learn more
+                Explore Marketing Automation
               </button>
-            </div>
+              </a>
+            
           </div>
         </div>
         <div
@@ -115,12 +126,14 @@ export default function Body() {
             style={{ height: "480px", width: "100%" }}
             src="https://eep.io/images/yzco4xsimv0y/hBcOt3RZ5DOhMJD2Hi2Z2/96b28d17c45e9376731ad825b002b0ff/Desktop_Feature_Cards_2_Analytics.png?w=630&fm=webp&q=80"
           />
-          <div style={{ padding: "40px 40px 40px 40px" }}>
-            <p>
-              Send the right message at the right time to convert more
-              customers.
+          <div style={{ padding: "20px 40px 40px 40px" }}>
+            <p style={{ marginBottom: "10px" }}>
+            Effortlessly create on-brand content with generative AI 
+            tools and choose from expertly designed templates.
+            
             </p>
-            <div style={{ display: "flex", justifyContent: "flex-start" }}>
+            <div style={{ display: "flex", justifyContent: "flex" }}>
+              <a href="https://mailchimp.com/solutions/ai-tools/">
               <button
                 style={{
                   borderRadius: "22px",
@@ -131,15 +144,20 @@ export default function Body() {
                   lineHeight: "36px",
                   margin: "0px",
                   fontWeight: "500",
-                  lineHeight: "20px",
+                  lineHeight: "36px",
                   textAlign: "center",
                   height: "43.99px",
-                  width: "100.61px",
+                  width: "150px",
                   justifyContent: "left",
+                  boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)", 
+                  transition: "box-shadow 0.3s ease",
                 }}
+                onMouseOver={(e) => { e.target.style.boxShadow = "0px 6px 10px rgba(0, 0, 0, 0.5)" }} 
+                onMouseOut={(e) => { e.target.style.boxShadow = "0px 4px 6px rgba(0, 0, 0, 0.1)" }} 
               >
-                Learn more
+                Explore AI tools
               </button>
+              </a>
             </div>
           </div>
         </div>
@@ -155,12 +173,12 @@ export default function Body() {
             style={{ height: "480px", width: "100%" }}
             src="https://eep.io/images/yzco4xsimv0y/5xqzo6y8Z7anw9VQXJarpj/5f91182af7bf16ecc34b487a619d0a54/Desktop_Feature_Cards_3_Segmentation.jpeg?w=630&fm=webp&q=80"
           />
-          <div style={{ padding: "40px 40px 40px 40px" }}>
-            <p>
-              Send the right message at the right time to convert more
-              customers.
+          <div style={{ padding: "20px 40px 40px 40px" }}>
+            <p style={{ marginBottom: "10px" }}>
+            Target customers with advanced logic like spend amounts, buying behavior, and predicted attributes.
             </p>
             <div style={{ display: "flex", justifyContent: "flex-start" }}>
+            <a href="https://mailchimp.com/solutions/audience-segmentation-tools/">
               <button
                 style={{
                   borderRadius: "22px",
@@ -171,15 +189,20 @@ export default function Body() {
                   lineHeight: "36px",
                   margin: "0px",
                   fontWeight: "500",
-                  lineHeight: "20px",
+                  lineHeight: "36px",
                   textAlign: "center",
                   height: "43.99px",
-                  width: "100.61px",
+                  width: "250px",
                   justifyContent: "left",
+                  boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)", 
+                  transition: "box-shadow 0.3s ease",
                 }}
+                onMouseOver={(e) => { e.target.style.boxShadow = "0px 6px 10px rgba(0, 0, 0, 0.5)" }} 
+                onMouseOut={(e) => { e.target.style.boxShadow = "0px 4px 6px rgba(0, 0, 0, 0.1)" }} 
               >
-                Learn more
+                Explore Audience Management
               </button>
+              </a>
             </div>
           </div>
         </div>
@@ -198,12 +221,12 @@ export default function Body() {
             }}
             src="https://eep.io/images/yzco4xsimv0y/lsHRpmOI81ZcFS1Yld0Bs/1e2812587cd0f3089061bd4b513fd6d0/Desktop_Feature_Cards_4_Integrations.png?w=630&fm=webp&q=80"
           />
-          <div style={{ padding: "40px 40px 40px 40px" }}>
-            <p>
-              Send the right message at the right time to convert more
-              customers.
+          <div style={{ padding: "20px 40px 40px 40px" }}>
+            <p style={{ marginBottom: "10px" }}>
+            Analyze performance with custom reports, funnel visualizations, and industry benchmarking.
             </p>
             <div style={{ display: "flex", justifyContent: "flex-start" }}>
+            <a href="https://mailchimp.com/solutions/analytics-reporting-tools/">
               <button
                 style={{
                   borderRadius: "22px",
@@ -217,12 +240,17 @@ export default function Body() {
                   lineHeight: "20px",
                   textAlign: "center",
                   height: "43.99px",
-                  width: "100.61px",
+                  width: "250px",
                   justifyContent: "left",
+                  boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)", 
+                  transition: "box-shadow 0.3s ease",
                 }}
+                onMouseOver={(e) => { e.target.style.boxShadow = "0px 6px 10px rgba(0, 0, 0, 0.5)" }} 
+                onMouseOut={(e) => { e.target.style.boxShadow = "0px 4px 6px rgba(0, 0, 0, 0.1)" }} 
               >
-                Learn more
+                Explore analytics & reporting
               </button>
+              </a>
             </div>
           </div>
         </div>
@@ -881,24 +909,31 @@ export default function Body() {
           apply if contact or email send limit is exceeded. Free plan sending
           will be paused if contact or email send limit is exceeded. Learn more
         </p>
-        <button
+        <div>
+       <a href="https://mailchimp.com/pricing/marketing/" style={{ textDecoration: 'none' }}>
+         <button
           style={{
-            borderRadius: "22px",
-            borderWidth: "1px",
-            backgroundColor: "#FFE01B",
-            fontFamily: "Graphik Web,Helvetica Neue",
-            fontSize: "15px",
-            margin: "0px",
-            fontWeight: "500",
-            lineHeight: "20px",
-            textAlign: "center",
-            height: "43.99px",
-            width: "164px",
-            marginBottom: "65px",
-          }}
-        >
-          See all plan details
-        </button>
+          borderRadius: "22px",
+          borderWidth: "1px",
+        backgroundColor: "#FFE01B",
+        fontFamily: "Graphik Web,Helvetica Neue",
+        fontSize: "15px",
+        margin: "0px",
+        fontWeight: "500",
+        lineHeight: "20px",
+        textAlign: "center",
+        height: "43.99px",
+        width: "164px",
+        marginBottom: "65px",
+        transition: "background-color 0.3s", // Adding transition for smooth hover effect
+      }}
+      onMouseEnter={(e) => { e.target.style.backgroundColor = '#FFD500'; }} // Change background color on hover
+      onMouseLeave={(e) => { e.target.style.backgroundColor = '#FFE01B'; }} // Change back to original color when not hovered
+    >
+      See all plan details
+    </button>
+  </a>
+</div>
       </div>
       <div
         style={{
