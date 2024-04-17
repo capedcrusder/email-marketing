@@ -5,7 +5,7 @@ import axios from "axios";
 import "./Styles.css";
 
 export default function Login() {
-   /* const history=useNavigate();
+    const history=useNavigate();
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -33,7 +33,7 @@ export default function Login() {
       console.log(e);
       // Handle signup failure (e.g., display error message)
     }
-  };      */
+  };      
 
 
   return (
@@ -53,14 +53,14 @@ export default function Login() {
         <div>
           <label className="input-label">Email</label>
           <br />
-          {/* <input className="input-field" type="text" value={email} onChange={(e) => setEmail(e.target.value)}/> */}
-          <input className="input-field" type="text"/>
+           <input className="input-field" type="text" value={email} onChange={(e) => setEmail(e.target.value)}/> 
+        {/*  <input className="input-field" type="text"/> */}
           <br />
           <br />
           <label className="input-label">Password</label>
           <br />
-          {/* <input className="input-field" type="password" value={password} onChange={(e) => setPassword(e.target.value)} /> */}
-          <input className="input-field" type="password" />
+           <input className="input-field" type="password" value={password} onChange={(e) => setPassword(e.target.value)} /> 
+          {/*<input className="input-field" type="password" />*/}
           <br />
 
           <br />
@@ -68,8 +68,8 @@ export default function Login() {
             By logging in, you agree to our Terms and have read and acknowledge
             the Global Privacy Statement.
           </p>
-          {/* <button className="submit-btn" onClick={submit}>Log In</button> */}
-          <button className="submit-btn">Log In</button>
+           <button className="submit-btn" onClick={submit}>Log In</button> 
+          {/*<button className="submit-btn">Log In</button> */}
         </div>
       </div>
     </div>

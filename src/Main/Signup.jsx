@@ -4,7 +4,7 @@ import {useNavigate, Link} from "react-router-dom";
 import axios from "axios";
 
 export default function Signup() {
-  /*const history=useNavigate();
+  const history=useNavigate();
 
 
   const [email, setEmail] = useState("");
@@ -33,7 +33,7 @@ export default function Signup() {
     } catch (e) {
       console.log(e);
     }
-  };     */
+  };     
 
 
   return (
@@ -57,14 +57,14 @@ export default function Signup() {
         <div>
           <label className="input-label">Email</label>
           <br />
-          {/* <input className="input-field" type="text" value={email} onChange={(e) => setEmail(e.target.value)} /> */}
-          <input className="input-field" type="text" />
+           <input className="input-field" type="text" value={email} onChange={(e) => setEmail(e.target.value)} /> 
+          {/* <input className="input-field" type="text" /> */}
           <br />
           <br />
           <label className="input-label">Password</label>
           <br />
-          {/* <input className="input-field" type="password" value={password} onChange={(e) => setPassword(e.target.value)} /> */}
-          <input className="input-field" type="password"/>
+           <input className="input-field" type="password" value={password} onChange={(e) => setPassword(e.target.value)} /> 
+          {/*<input className="input-field" type="password"/> */}
           <br />
 
           <br />
@@ -83,8 +83,8 @@ export default function Signup() {
             By creating ans account, you agree to our Terms and have read and
             acknowledge the Global Privacy Statement.
           </p>
-          {/* <button className="submit-btn" onClick={submit}>Sign Up</button> */}
-          <button className="submit-btn">Sign Up</button>
+           <button className="submit-btn" onClick={submit}>Sign Up</button> 
+         {/* <button className="submit-btn">Sign Up</button> */}
         </div>
       </div>
     </div>

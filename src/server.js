@@ -1,6 +1,7 @@
-/*
+
 const express = require('express');
 const collection = require("./db");
+const collection = require("./index.js")
 const cors=require("cors")
 
 const app = express();
@@ -54,4 +55,3 @@ app.listen(3000,()=>{
     console.log("port connected");
 })
 
-*/
