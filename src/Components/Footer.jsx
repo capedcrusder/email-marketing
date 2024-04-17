@@ -9,26 +9,26 @@ export default function Footer() {
       <div className="footer-container">
         <div className="footer-column">
           <p className="footer-heading">Products</p>
-          <p className="footer-link">Why Mailchimp?</p>
-          <p className="footer-link">Product Updates</p>
-          <p className="footer-link">Email Marketing</p>
-          <p className="footer-link">Websites</p>
-          <p className="footer-link">Transactional Email</p>
-          <p className="footer-link">How We Compare</p>
-          <p className="footer-link">GDPR Compliance</p>
-          <p className="footer-link">Security</p>
-          <p className="footer-link">Status</p>
-          <p className="footer-link">Mobile App</p>
+          <p className="footer-link"><a href="https://mailchimp.com/why-mailchimp/">Why Mailchimp?</a></p>
+          <p className="footer-link"><a href="https://mailchimp.com/whats-new/" >Product Updates</a></p>
+          <p className="footer-link"><a href="https://mailchimp.com/features/email/" >Email Marketing</a></p>
+          <p className="footer-link"><a href="https://mailchimp.com/features/website-builder/" >Websites</a></p>
+          <p className="footer-link"><a href="https://mailchimp.com/features/transactional-email/" >Transactional Email</a></p>
+          <p className="footer-link"><a href="https://mailchimp.com/resources/mailchimp-comparisons/" >How We Compare</a></p>
+          <p className="footer-link"><a href="https://mailchimp.com/gdpr/" >GDPR Compliance</a></p>
+          <p className="footer-link"><a href="https://mailchimp.com/about/security/" >Security</a></p>
+          <p className="footer-link"><a href="https://status.mailchimp.com/" >Status</a></p>
+          <p className="footer-link"><a href="https://mailchimp.com/features/mailchimp-mobile/" >Mobile App</a></p>
           
         </div>
 
         {/* Other columns */}
         <div className="footer-column">
           <p className="footer-heading">Resources</p>
-          <p className="footer-link">Marketing Library</p>
-          <p className="footer-link">Free Marketing Tools</p>
-          <p className="footer-link">Marketing Glossary</p>
-          <p className="footer-link">Integration Directory</p>
+          <p className="footer-link"><a href="https://mailchimp.com/resources/">Marketing Library</a></p>
+          <p className="footer-link"><a href="https://mailchimp.com/resources/free-marketing-features-overview/">Free Marketing Tools</a></p>
+          <p className="footer-link"><a href="https://mailchimp.com/marketing-glossary/">Marketing Glossary</a></p>
+          <p className="footer-link"><a href="https://mailchimp.com/integrations/">Integration Directory</a></p>
           {/* Other links */}
         </div>
 

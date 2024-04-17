@@ -927,8 +927,8 @@ export default function Body() {
         marginBottom: "65px",
         transition: "background-color 0.3s", // Adding transition for smooth hover effect
       }}
-      onMouseEnter={(e) => { e.target.style.backgroundColor = '#FFD500'; }} // Change background color on hover
-      onMouseLeave={(e) => { e.target.style.backgroundColor = '#FFE01B'; }} // Change back to original color when not hovered
+      onMouseEnter={(e) => { e.target.style.backgroundColor = '#FFD500'; }} 
+      onMouseLeave={(e) => { e.target.style.backgroundColor = '#FFE01B'; }}
     >
       See all plan details
     </button>
